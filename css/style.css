@@ -1,0 +1,371 @@
+body {
+	font-family: Georgia, Serif;
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	background: #f2eeee url(../images/bg.png);
+	color: #666;
+}
+
+a {
+	text-decoration: none;
+	color: #cb3030;
+}
+
+a:hover {color: #999;}
+
+h1 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 60px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #cb3030;
+	padding: 0 0 15px 0;
+}
+
+h3 {
+	color: #fff;
+	font-size: 17px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #cb3030;
+	padding: 0 0 15px 0;
+}
+
+h5 {
+	color: #fff;
+	font-size: 15px;
+	font-style: italic;
+}
+
+p {
+	color: #666;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.quote {font-style: italic;}
+
+.current {border-bottom: 1px solid #999;}
+
+.current:hover {border-bottom: 1px solid #999;}
+
+section {padding: 0 80px;}
+
+::-moz-selection {
+	background: #cb3030;
+	color: #fff;
+}
+
+::selection {
+	background: #cb3030;
+	color: #fff;
+}
+
+.lists ul {
+	list-style: disc;
+	padding-left: 1em;
+}
+
+.lists ul li {
+	color: #666;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+
+.bold {font-weight: bold;}
+
+.italic {font-style: italic;}
+
+.clear {clear: both;}
+
+.left {
+	float: left;
+	display: inline;
+}
+
+.right {
+	float: right;
+	display: inline;
+}
+
+#wrapper {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#content {
+	background: #fff;
+	margin: 0 0 0 0;
+	-webkit-box-shadow: 0px 0px 8px #bbbbbb;
+	-moz-box-shadow: 0px 0px 8px #bbbbbb;
+	box-shadow: 0px 0px 8px #bbbbbb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(htc/PIE.htc);
+}
+
+/*----------------------Header----------------------*/
+
+header {
+	height: 140px;
+	padding: 0 80px;
+}
+
+#logo {
+	position: absolute;
+	top: -10px;
+	left: 80px;
+	width: auto;
+	height: 70px;
+	background: #cb3030;
+	padding: 50px 10px 0 10px;
+}
+
+#logo h5 {
+	width: 100%;
+	text-align: center;
+	padding-top: 7px;
+}
+
+nav {float: right;}
+
+nav ul {padding: 50px 0 0 0;}
+
+nav ul li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav ul li:first-child {margin-left: 0;}
+
+nav ul li a {
+	color: #666;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {color: #999;}
+
+/*----------------------Home----------------------*/
+
+#main {
+	position: relative;
+	background: #7d8b96 url(../images/main_bg.png);
+	height: 390px;
+	text-shadow: 1px 0px 2px #444444;
+	filter: dropshadow(color=#444444, offx=1, offy=0);
+}
+
+#main-text {
+	width: 460px;
+	height: 273px;
+	padding: 40px 0 0 0;
+}
+
+.main-descripton {
+	color: #fff;
+	font-size: 24px;
+	padding: 30px 0 0 0;
+	line-height: 28px;
+}
+
+#photo {
+	background: url(../images/photo.png);
+	width: 294px;
+	height: 442px;
+	position: absolute;
+	right: 80px;
+	top:  98px;
+	z-index: 999;
+}
+
+#bio {padding-top: 30px;}
+
+.bio {padding: 0 0 15px 0;}
+
+.bio>ul>li {
+	width: 330px;
+	height: 40px;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	background: #e9e9e9;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	margin: 20px 20px 0 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.bio>ul>li:hover {
+	background: #cb3030;
+	color: #fff;
+	-webkit-transition: 0.6s linear;
+	-moz-transition: 0.6s linear;
+	-o-transition: 0.6s linear;
+	-ms-transition: 0.6s linear;
+	transition: 0.6s linear;
+}
+
+.right {margin-right: 0;}
+
+#contact-button {
+	float: right;
+	padding: 20px 0 0 0;
+}
+
+#contact-button a {
+	width: 148px;
+	height: 38px;
+	background: transparent url(../images/contact_button.png) no-repeat 0 0;
+	color:#fff;
+	display:block;
+	text-indent: -9999px;
+}
+
+#contact-button a:active {background-position: 0 -38px;}
+
+/*----------------------Titoli----------------------*/
+
+#titoli-studio  {padding-bottom: 20px;}
+
+/*----------------------Attività----------------------*/
+
+#attivita-scientifica ul {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#attivita-didattica ul {padding-top: 10px;}
+
+#attivita-chirurgica ul {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/*----------------------Pubblicazioni----------------------*/
+
+#elenco-pubblicazioni ul li {padding-bottom: 20px;}
+
+#elenco-pubblicazioni h4{padding-bottom: 5px;}
+
+#elenco-pubblicazioni p {font-size: 16px;}
+
+#elenco-pubblicazioni p.italic {font-size: 15px;}
+
+/*----------------------Casistica----------------------*/
+
+.casistica {
+	width: 80%;
+	float: left;
+	background: #fff;
+}
+
+.time {
+	position: fixed;
+	margin-left: 700px;
+	width: 80px	;
+	padding: 10px 0 50px 0;
+	background: #cb3030 url(../images/ribbon.jpg) no-repeat bottom left;
+}
+
+.time a {
+	text-align: center;
+	display: block;
+	padding: 6px 10px;
+	color: #fff;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.time a:hover {text-decoration: underline;}
+
+.casistica div {display: none;}
+
+.casistica div a {
+	font-size: 24px;
+	color: #cb3030;
+	padding: 0 0 15px 0;
+}
+
+.casistica div.show {display: block;}
+
+.casistica p {font-size: 16px;}
+
+.casistica p.sintomo{
+	margin-top: 10px;
+	font-style: italic;
+}
+
+.casistica p.operazione{
+	color: #cb3030;
+	font-size: 18px;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 10px;
+}
+
+.casistica p.operazione:last-child {border: none;}
+
+/*----------------------Footer----------------------*/
+
+footer {padding: 30px 80px 0px 80px;}
+
+#bottom {
+	border-top: 1px dashed #999;
+	padding: 30px 0 50px 0;
+}
+
+#bottom li.inline {
+	float: left;
+	width: 246px;
+	margin-right: 21px;
+}
+
+#bottom li.inline.last {margin-right:0;}
+
+#bottom li {
+	color: #666;
+	font-size: 14px;
+	padding: 0 0 10px 0;
+}
+
+#bottom li a.maps {
+	padding-right: 20px;
+	background: url(../images/pin.png) no-repeat right center;
+}
+
+.left.second-column {padding: 0 0 0 30px;}
+
+.rapidlink {
+	margin-top: 30px;
+	text-align:center;
+}
+
+.rapidlink a {
+	color: #666;
+	font-size: 13px;
+}
+
+.rapidlink a:hover {text-decoration: underline;}
+
+.rapidlink a:before {content: "| ";	}
+
+.rapidlink a.first:before {content: "";}
+
+.copyright {
+	font-size: 14px;
+	text-align: center;
+	padding: 20px 0 30px 0;
+	text-shadow: 0px 1px 0px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=0, offy=1);
+}

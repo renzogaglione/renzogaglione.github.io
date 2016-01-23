@@ -1,0 +1,111 @@
+/********************************************************************
+
+Project: Formee - http://www.formee.org
+Last Updated: 19/04/2010
+Version: 1.1
+Authors: Bernard De Luna - http://www.bernarddeluna.com
+             Daniel Araujo - http://www.dnlaraujo.com.br
+			 Marcello Manso - http://www.marcellomanso.com.br
+			 
+********************************************************************
+Style
+********************************************************************/
+
+
+
+/* Form Style */
+.form {padding: 30px 0 0 0;}
+
+.form p{
+	font-size: 18px;
+	padding-bottom:20px;
+}
+
+.form fieldset {
+}
+
+/* hover effect
+.grid-1-12:hover, .grid-2-12:hover, .grid-3-12:hover, .grid-4-12:hover, .grid-5-12:hover, .grid-6-12:hover, .grid-7-12:hover, .grid-8-12:hover, .grid-9-12:hover, .grid-10-12:hover, .grid-11-12:hover, .grid-12-12:hover {background:#e5e5e5;}
+.field-button:hover {background:transparent;}
+*/
+
+/* Form legend and titles */
+.form legend {
+	font-size:1.7em;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	color:#cb3030;
+}
+
+/* form elements  */
+.form-lbl {
+	font-size:1em;
+}
+.form-no-lbl {
+	margin:0;
+	padding:0;
+}
+.form-req {
+	color:#d10000;
+}
+.form .form-txt, .form textarea, .form select {
+	border-color:#ccc;
+	background: #fff;
+	color:#999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+	-webkit-box-shadow: inset 0px 3px 3px #ededed;
+	-moz-box-shadow: inset 0px 3px 3px #ededed;
+	box-shadow: inset 0px 3px 3px #ededed;
+	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 10px;
+}
+.form .form-txt:focus, .form textarea:focus, .form select:focus {
+	outline:none;
+}
+.form input[type="text"] {
+	height: 40px;	
+}
+.form textarea {
+	margin-top:10px;
+}
+/* form msg status  */
+.form-msg-info, .form-msg-warning, .form-msg-error, .form-msg-success {
+	font-size:0.9em;
+	height:20px;
+}
+.form-msg-info {
+	border-color:#bcdfef;
+	color:#11689e;
+}
+.form-msg-warning {
+	border-color:#fceb77;
+	color:#957210;
+}
+.form-msg-error {
+	border-color:#f6abab;
+	color:#b01717;
+}
+.form-msg-success {
+	border-color:#d0f1a6;
+	color:#62b548;
+}
+ 
+/* form buttons */
+.form-button {
+	font-size:1.2em;
+	width: 148px;
+	height: 38px;
+	background: transparent url(../images/send_buttons.png) no-repeat 0 0;
+	color:#fff;
+	text-indent: -9999px;
+}
+.form-button:active {background-position: 0 -38px;}
+
+.form input[type="text"].tagged, .form textarea.tagged{
+	font-style: italic;
+}

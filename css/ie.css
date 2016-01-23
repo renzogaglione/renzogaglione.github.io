@@ -1,0 +1,15 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.current {
+	line-height: 28px;
+}
+
+#content {
+	behavior: url(htc/PIE.htc);
+}
+
+#main p, #main h1{
+	font-weight: normal;	
+}
